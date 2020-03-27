@@ -1,18 +1,33 @@
 package pglp_3.pglp_3;
-
+/**
+ *classe Robot. 
+ * 
+ * 
+ * */
 public class Robot {
-	private Position pos;
-	private Direction dir;
-	Robot(Position pos,Direction dir){
-	
-		this.dir=dir;
-		this.pos=pos;
-	}
+	  /**
+     * position pos qui est private.
+     *
+     * @see Robot#Robot(Position, Direction)
+     */
+private Position pos;
+/**
+ * Direction dir qui est private.
+ *
+ * @see Robot#Robot(Position, Direction)
+ */
+private Direction dir;
+/**
+ * constructeur Robot.
+ * @param pos la position du robot.
+ * @param dir la direction du robot.
+ * */
+Robot(Position pos,Direction dir){
+		this.dir = dir;
+		this.pos = pos;
+		}
+/**methode torner.*/
 	public void tourne() {}
-
-	public void avance() {
-		
-		
-		
+/**methode avanceer.*/
+	public void avance() {}
 	}
-}

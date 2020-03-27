@@ -2,8 +2,8 @@ package pglp_3.pglp_3;
 
 public class Direction {
 private String direction; 
-Direction(String direction){
-	this.direction=direction;
+Direction(String direction) {
+	this.direction = direction;
 }
 	void EAST() {
 	}
